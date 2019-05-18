@@ -1,0 +1,23 @@
+init 9
+edge 1 2
+edge 1 4
+edge 2 3
+edge 2 5
+edge 2 6
+edge 3 5
+edge 4 6
+edge 5 7
+edge 5 0
+edge 6 7
+edge 6 0
+edge 8 0
+dfs 0
+dfs 1
+dfs 2
+dfs 3
+dfs 4
+dfs 5
+dfs 6
+dfs 7
+dfs 8
+quit
