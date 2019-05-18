@@ -1,0 +1,14 @@
+Number of terms = 4:(3.0, 4) (4.0, 3) (2.0, 1) (1.0, 0) 
+Number of terms = 4:(4.0, 5) (3.0, 2) (2.0, 1) (1.0, 0) 
+c = a + b
+Number of terms = 6:(4.0, 5) (3.0, 4) (4.0, 3) (3.0, 2) (4.0, 1) (2.0, 0) 
+d = a - b
+Number of terms = 4:(-4.0, 5) (3.0, 4) (4.0, 3) (-3.0, 2) 
+Continue (y/n) 
+Number of terms = 3:(3.0, 3) (2.0, 1) (1.0, 0) 
+Number of terms = 3:(3.0, 3) (2.0, 1) (1.0, 0) 
+c = a + b
+Number of terms = 3:(6.0, 3) (4.0, 1) (2.0, 0) 
+d = a - b
+Number of terms = 0:
+Continue (y/n) 
