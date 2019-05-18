@@ -1,0 +1,36 @@
+ins 20 a
+ins 20 b
+get 20
+ins 10 c
+get 10
+ins 40 d
+ins 6 f
+ins 15 e
+get 10
+ins 30 6
+ins 2 k
+ins 2 j
+ins 8 i
+ins 25 m
+get 30
+ins 35 n
+ins 7 o
+ins 18 p
+ins 25 i
+ins 7 q
+ins 35 r
+get 15
+get 10
+ins 40 s
+get 40
+get 35
+ins 15 t
+get 20
+ins 10 u
+get 7
+get 15
+ins 20 v
+get 2
+ins 13 q
+get 8
+quit

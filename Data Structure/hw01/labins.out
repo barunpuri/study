@@ -1,0 +1,232 @@
+Pre  Order : 20(a) 
+In   Order : 20(a) 
+Post Order : 20(a) 
+Count      : 1
+Height      : 1
+
+Key Updated
+Pre  Order : 20(b) 
+In   Order : 20(b) 
+Post Order : 20(b) 
+Count      : 1
+Height      : 1
+
+Item 20 b
+Pre  Order : 20(b) 
+In   Order : 20(b) 
+Post Order : 20(b) 
+Count      : 1
+Height      : 1
+
+Pre  Order : 20(b) 10(c) 
+In   Order : 10(c) 20(b) 
+Post Order : 10(c) 20(b) 
+Count      : 2
+Height      : 2
+
+Item 10 c
+Pre  Order : 20(b) 10(c) 
+In   Order : 10(c) 20(b) 
+Post Order : 10(c) 20(b) 
+Count      : 2
+Height      : 2
+
+Pre  Order : 20(b) 10(c) 40(d) 
+In   Order : 10(c) 20(b) 40(d) 
+Post Order : 10(c) 40(d) 20(b) 
+Count      : 3
+Height      : 2
+
+Pre  Order : 20(b) 10(c) 6(f) 40(d) 
+In   Order : 6(f) 10(c) 20(b) 40(d) 
+Post Order : 6(f) 10(c) 40(d) 20(b) 
+Count      : 4
+Height      : 3
+
+Pre  Order : 20(b) 10(c) 6(f) 15(e) 40(d) 
+In   Order : 6(f) 10(c) 15(e) 20(b) 40(d) 
+Post Order : 6(f) 15(e) 10(c) 40(d) 20(b) 
+Count      : 5
+Height      : 3
+
+Item 10 c
+Pre  Order : 20(b) 10(c) 6(f) 15(e) 40(d) 
+In   Order : 6(f) 10(c) 15(e) 20(b) 40(d) 
+Post Order : 6(f) 15(e) 10(c) 40(d) 20(b) 
+Count      : 5
+Height      : 3
+
+Pre  Order : 20(b) 10(c) 6(f) 15(e) 40(d) 30(6) 
+In   Order : 6(f) 10(c) 15(e) 20(b) 30(6) 40(d) 
+Post Order : 6(f) 15(e) 10(c) 30(6) 40(d) 20(b) 
+Count      : 6
+Height      : 3
+
+Pre  Order : 20(b) 10(c) 6(f) 2(k) 15(e) 40(d) 30(6) 
+In   Order : 2(k) 6(f) 10(c) 15(e) 20(b) 30(6) 40(d) 
+Post Order : 2(k) 6(f) 15(e) 10(c) 30(6) 40(d) 20(b) 
+Count      : 7
+Height      : 4
+
+Key Updated
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 15(e) 40(d) 30(6) 
+In   Order : 2(j) 6(f) 10(c) 15(e) 20(b) 30(6) 40(d) 
+Post Order : 2(j) 6(f) 15(e) 10(c) 30(6) 40(d) 20(b) 
+Count      : 7
+Height      : 4
+
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 15(e) 40(d) 30(6) 
+In   Order : 2(j) 6(f) 8(i) 10(c) 15(e) 20(b) 30(6) 40(d) 
+Post Order : 2(j) 8(i) 6(f) 15(e) 10(c) 30(6) 40(d) 20(b) 
+Count      : 8
+Height      : 4
+
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 15(e) 40(d) 30(6) 25(m) 
+In   Order : 2(j) 6(f) 8(i) 10(c) 15(e) 20(b) 25(m) 30(6) 40(d) 
+Post Order : 2(j) 8(i) 6(f) 15(e) 10(c) 25(m) 30(6) 40(d) 20(b) 
+Count      : 9
+Height      : 4
+
+Item 30 6
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 15(e) 40(d) 30(6) 25(m) 
+In   Order : 2(j) 6(f) 8(i) 10(c) 15(e) 20(b) 25(m) 30(6) 40(d) 
+Post Order : 2(j) 8(i) 6(f) 15(e) 10(c) 25(m) 30(6) 40(d) 20(b) 
+Count      : 9
+Height      : 4
+
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 15(e) 40(d) 30(6) 25(m) 35(n) 
+In   Order : 2(j) 6(f) 8(i) 10(c) 15(e) 20(b) 25(m) 30(6) 35(n) 40(d) 
+Post Order : 2(j) 8(i) 6(f) 15(e) 10(c) 25(m) 35(n) 30(6) 40(d) 20(b) 
+Count      : 10
+Height      : 4
+
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 7(o) 15(e) 40(d) 30(6) 25(m) 35(n) 
+In   Order : 2(j) 6(f) 7(o) 8(i) 10(c) 15(e) 20(b) 25(m) 30(6) 35(n) 40(d) 
+Post Order : 2(j) 7(o) 8(i) 6(f) 15(e) 10(c) 25(m) 35(n) 30(6) 40(d) 20(b) 
+Count      : 11
+Height      : 5
+
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 7(o) 15(e) 18(p) 40(d) 30(6) 25(m) 35(n) 
+In   Order : 2(j) 6(f) 7(o) 8(i) 10(c) 15(e) 18(p) 20(b) 25(m) 30(6) 35(n) 40(d) 
+Post Order : 2(j) 7(o) 8(i) 6(f) 18(p) 15(e) 10(c) 25(m) 35(n) 30(6) 40(d) 20(b) 
+Count      : 12
+Height      : 5
+
+Key Updated
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 7(o) 15(e) 18(p) 40(d) 30(6) 25(i) 35(n) 
+In   Order : 2(j) 6(f) 7(o) 8(i) 10(c) 15(e) 18(p) 20(b) 25(i) 30(6) 35(n) 40(d) 
+Post Order : 2(j) 7(o) 8(i) 6(f) 18(p) 15(e) 10(c) 25(i) 35(n) 30(6) 40(d) 20(b) 
+Count      : 12
+Height      : 5
+
+Key Updated
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 7(q) 15(e) 18(p) 40(d) 30(6) 25(i) 35(n) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(c) 15(e) 18(p) 20(b) 25(i) 30(6) 35(n) 40(d) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 18(p) 15(e) 10(c) 25(i) 35(n) 30(6) 40(d) 20(b) 
+Count      : 12
+Height      : 5
+
+Key Updated
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 7(q) 15(e) 18(p) 40(d) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(c) 15(e) 18(p) 20(b) 25(i) 30(6) 35(r) 40(d) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 18(p) 15(e) 10(c) 25(i) 35(r) 30(6) 40(d) 20(b) 
+Count      : 12
+Height      : 5
+
+Item 15 e
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 7(q) 15(e) 18(p) 40(d) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(c) 15(e) 18(p) 20(b) 25(i) 30(6) 35(r) 40(d) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 18(p) 15(e) 10(c) 25(i) 35(r) 30(6) 40(d) 20(b) 
+Count      : 12
+Height      : 5
+
+Item 10 c
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 7(q) 15(e) 18(p) 40(d) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(c) 15(e) 18(p) 20(b) 25(i) 30(6) 35(r) 40(d) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 18(p) 15(e) 10(c) 25(i) 35(r) 30(6) 40(d) 20(b) 
+Count      : 12
+Height      : 5
+
+Key Updated
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 7(q) 15(e) 18(p) 40(s) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(c) 15(e) 18(p) 20(b) 25(i) 30(6) 35(r) 40(s) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 18(p) 15(e) 10(c) 25(i) 35(r) 30(6) 40(s) 20(b) 
+Count      : 12
+Height      : 5
+
+Item 40 s
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 7(q) 15(e) 18(p) 40(s) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(c) 15(e) 18(p) 20(b) 25(i) 30(6) 35(r) 40(s) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 18(p) 15(e) 10(c) 25(i) 35(r) 30(6) 40(s) 20(b) 
+Count      : 12
+Height      : 5
+
+Item 35 r
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 7(q) 15(e) 18(p) 40(s) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(c) 15(e) 18(p) 20(b) 25(i) 30(6) 35(r) 40(s) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 18(p) 15(e) 10(c) 25(i) 35(r) 30(6) 40(s) 20(b) 
+Count      : 12
+Height      : 5
+
+Key Updated
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 7(q) 15(t) 18(p) 40(s) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(c) 15(t) 18(p) 20(b) 25(i) 30(6) 35(r) 40(s) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 18(p) 15(t) 10(c) 25(i) 35(r) 30(6) 40(s) 20(b) 
+Count      : 12
+Height      : 5
+
+Item 20 b
+Pre  Order : 20(b) 10(c) 6(f) 2(j) 8(i) 7(q) 15(t) 18(p) 40(s) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(c) 15(t) 18(p) 20(b) 25(i) 30(6) 35(r) 40(s) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 18(p) 15(t) 10(c) 25(i) 35(r) 30(6) 40(s) 20(b) 
+Count      : 12
+Height      : 5
+
+Key Updated
+Pre  Order : 20(b) 10(u) 6(f) 2(j) 8(i) 7(q) 15(t) 18(p) 40(s) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(u) 15(t) 18(p) 20(b) 25(i) 30(6) 35(r) 40(s) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 18(p) 15(t) 10(u) 25(i) 35(r) 30(6) 40(s) 20(b) 
+Count      : 12
+Height      : 5
+
+Item 7 q
+Pre  Order : 20(b) 10(u) 6(f) 2(j) 8(i) 7(q) 15(t) 18(p) 40(s) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(u) 15(t) 18(p) 20(b) 25(i) 30(6) 35(r) 40(s) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 18(p) 15(t) 10(u) 25(i) 35(r) 30(6) 40(s) 20(b) 
+Count      : 12
+Height      : 5
+
+Item 15 t
+Pre  Order : 20(b) 10(u) 6(f) 2(j) 8(i) 7(q) 15(t) 18(p) 40(s) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(u) 15(t) 18(p) 20(b) 25(i) 30(6) 35(r) 40(s) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 18(p) 15(t) 10(u) 25(i) 35(r) 30(6) 40(s) 20(b) 
+Count      : 12
+Height      : 5
+
+Key Updated
+Pre  Order : 20(v) 10(u) 6(f) 2(j) 8(i) 7(q) 15(t) 18(p) 40(s) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(u) 15(t) 18(p) 20(v) 25(i) 30(6) 35(r) 40(s) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 18(p) 15(t) 10(u) 25(i) 35(r) 30(6) 40(s) 20(v) 
+Count      : 12
+Height      : 5
+
+Item 2 j
+Pre  Order : 20(v) 10(u) 6(f) 2(j) 8(i) 7(q) 15(t) 18(p) 40(s) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(u) 15(t) 18(p) 20(v) 25(i) 30(6) 35(r) 40(s) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 18(p) 15(t) 10(u) 25(i) 35(r) 30(6) 40(s) 20(v) 
+Count      : 12
+Height      : 5
+
+Pre  Order : 20(v) 10(u) 6(f) 2(j) 8(i) 7(q) 15(t) 13(q) 18(p) 40(s) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(u) 13(q) 15(t) 18(p) 20(v) 25(i) 30(6) 35(r) 40(s) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 13(q) 18(p) 15(t) 10(u) 25(i) 35(r) 30(6) 40(s) 20(v) 
+Count      : 13
+Height      : 5
+
+Item 8 i
+Pre  Order : 20(v) 10(u) 6(f) 2(j) 8(i) 7(q) 15(t) 13(q) 18(p) 40(s) 30(6) 25(i) 35(r) 
+In   Order : 2(j) 6(f) 7(q) 8(i) 10(u) 13(q) 15(t) 18(p) 20(v) 25(i) 30(6) 35(r) 40(s) 
+Post Order : 2(j) 7(q) 8(i) 6(f) 13(q) 18(p) 15(t) 10(u) 25(i) 35(r) 30(6) 40(s) 20(v) 
+Count      : 13
+Height      : 5
+

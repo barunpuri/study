@@ -1,0 +1,58 @@
+ins 20 a
+del 20 
+del 20
+ins 20 b
+get 20
+ins 10 c
+get 10
+ins 40 d
+ins 6 f
+ins 15 e
+get 10
+ins 30 6
+ins 2 k
+ins 2 j
+ins 8 i
+ins 25 m
+get 30
+ins 35 n
+ins 7 o
+ins 18 p
+ins 25 i
+del 7
+ins 7 q
+del 35
+ins 35 r
+del 124
+get 15
+del 40
+get 10
+ins 40 s
+get 40
+del 15
+get 35
+ins 15 t
+del 10
+get 20
+ins 10 u
+get 7
+del 20
+get 15
+ins 20 v
+get 2
+ins 16 k
+ins 17 g
+del 15
+ins 26 t
+ins 32 u
+del 30
+ins 33 r
+ins 34 w
+del 33
+ins 33 q
+del 33
+ins 33 r
+del 34
+del 32
+ins 35 z
+quit
