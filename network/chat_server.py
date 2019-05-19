@@ -2,6 +2,7 @@ from socket import *
 from threading import Thread
 import sys
 import os
+import time
 
 id = 20153235
 name = 'Jungkeun Cho'
@@ -15,39 +16,47 @@ serverSocket.bind(('',serverPort))
 
 MAX_SYNC_SOCKET = 16
 
-connection_list = [0 for i in range(MAX_SYNC_SOCKET) ]
+connection_list = []
+serverSocket.listen(1)
 
 def connectingSocket(connectionSocket, addr):
     socketFD = connectionSocket.fileno() 
-    connection_list[socketFD%MAX_SYNC_SOCKET] = connectionSocket
+    connection_list.append( connectionSocket )
     
     print( 'connection from host {}, port {}, socket {}'.format(addr[0], addr[1], socketFD ) )
     
     while( True ):            
         msg = connectionSocket.recv(1024)
         
-        if( not msg or msg == b'^]\r\n' ):
-            connection_list[socketFD%MAX_SYNC_SOCKET] = 0
+        if( not msg or msg == b'^]\r\n' or msg == b'\xff\xf4\xff\xfd\x06' ):
+            connection_list.remove( connectionSocket )
             print('Connection Closed {}'.format(socketFD))
             connectionSocket.close()
             return
 
-        for sock in [s for s in connection_list if( type(s)==socket and s != connectionSocket )]:
+        for sock in [s for s in connection_list if( s != connectionSocket )]:
             sock.send(msg)
+    
 
 
-#__main__:
-            
+#__main__:      
 try:
-    while( 0 in connection_list ):
-        serverSocket.listen(1)
+    while( True ):
         conn, addr = serverSocket.accept()
-        t = Thread( target = connectingSocket, args = (conn, addr) )
+        if(len(connection_list) >= MAX_SYNC_SOCKET ):
+            conn.close()
+            continue
+        t = Thread( target = connectingSocket, args = (conn, addr), daemon = True )
         t.start()
+        
     
 except KeyboardInterrupt:
+    for s in connection_list:
+        s.close()
     serverSocket.close()
     sys.exit() 
 
-
+for s in connection_list:
+    s.close()
 serverSocket.close()
+sys.exit()
